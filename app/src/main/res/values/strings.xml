@@ -5,6 +5,8 @@
     <string name="cheat">CHEAT!</string>
     <string name="prev">PREV</string>
     <string name="next">NEXT</string>
+    <string name="showAnswer">SHOW ANSWER</string>
+    <string name="cheatCheck">Are you sure you want to do this?</string>
 
 
 </resources>

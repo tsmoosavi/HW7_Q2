@@ -1,5 +1,6 @@
 package com.example.hw7_q2
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.hw7_q2.databinding.ActivityMainBinding
@@ -10,7 +11,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        binding.cheatButton.setOnClickListener{
+            cheat()
+        }
 
+    }
+    fun cheat() {
+        var cheatButtonIntent = Intent(this, MainActivity2::class.java)
+        startActivity(cheatButtonIntent)
 
     }
 }
