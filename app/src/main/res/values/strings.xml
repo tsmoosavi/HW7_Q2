@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HW7_Q2</string>
+    <string name="True">TRUE</string>
+    <string name="False">FALSE</string>
+    <string name="cheat">CHEAT!</string>
+    <string name="prev">PREV</string>
+
+
+</resources>
