@@ -4,6 +4,7 @@
     <string name="False">FALSE</string>
     <string name="cheat">CHEAT!</string>
     <string name="prev">PREV</string>
+    <string name="next">NEXT</string>
 
 
 </resources>
